@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace EventManagement
+namespace EventManagement.Web
 {
     public class BundleConfig
     {

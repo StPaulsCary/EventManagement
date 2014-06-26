@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace EventManagement
+namespace EventManagement.Web
 {
     public static class WebApiConfig
     {

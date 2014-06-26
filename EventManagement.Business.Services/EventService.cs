@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EventManagement.Business.Services
 {
-    public class Class1
+    public class EventService
     {
     }
 }

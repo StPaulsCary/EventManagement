@@ -10,10 +10,10 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Owin;
-using EventManagement.Models;
+using EventManagement.Web.Models;
 using EventManagement.Data;
 
-namespace EventManagement.Controllers
+namespace EventManagement.Web.Controllers
 {
     [Authorize]
     public class AccountController : Controller

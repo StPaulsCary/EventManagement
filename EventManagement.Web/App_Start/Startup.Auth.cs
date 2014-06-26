@@ -7,10 +7,10 @@ using Microsoft.Owin.Security.DataProtection;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using System;
-using EventManagement.Models;
+using EventManagement.Web.Models;
 using EventManagement.Data;
 
-namespace EventManagement
+namespace EventManagement.Web
 {
     public partial class Startup
     {

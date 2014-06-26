@@ -5,7 +5,7 @@ using System.Text;
 using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EventManagement;
-using EventManagement.Controllers;
+using EventManagement.Web.Controllers;
 
 namespace EventManagement.Tests.Controllers
 {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(EventManagement.Startup))]
-namespace EventManagement
+[assembly: OwinStartupAttribute(typeof(EventManagement.Web.Startup))]
+namespace EventManagement.Web
 {
     public partial class Startup
     {

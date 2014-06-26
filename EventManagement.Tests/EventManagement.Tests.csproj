@@ -92,6 +92,27 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EventManagement.Business.Entities\EventManagement.Business.Entities.csproj">
+      <Project>{12533274-f9c4-4eea-af36-b383a18279ba}</Project>
+      <Name>EventManagement.Business.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EventManagement.Business.Services\EventManagement.Business.Services.csproj">
+      <Project>{f8fb912d-0143-4ac1-8d3b-32e1d54b6184}</Project>
+      <Name>EventManagement.Business.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EventManagement.Data\EventManagement.Data.csproj">
+      <Project>{cb0da397-93b5-4d7b-8c3c-fd6f1f09db3e}</Project>
+      <Name>EventManagement.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EventManagement.Web\EventManagement.Web.csproj">
+      <Project>{ef216786-0b9f-4bca-8df0-abcec2155296}</Project>
+      <Name>EventManagement.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

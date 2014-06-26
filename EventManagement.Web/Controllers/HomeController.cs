@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace EventManagement.Controllers
+namespace EventManagement.Web.Controllers
 {
     [RequireHttps]
     public class HomeController : Controller
